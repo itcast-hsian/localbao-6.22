@@ -1,0 +1,61 @@
+/* 普通的flex对齐 */
+/* 表示该元素是一个自由伸缩排列的空间 */
+/* .wrap{
+    display: flex; 
+}
+*/
+
+
+/*左右贴边对齐*/
+/* .wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 70px;
+    height: 70px;
+    background: gray;
+    margin: 10px;
+} */
+
+
+/* 典型的移动端布局 */
+.image image{
+    width: 100px;
+    height: 100px;
+}
+
+.wrap{
+    display: flex;
+    padding: 20px;
+}
+
+.goods-info{
+    /* 自动分配所有的剩余空间给到该元素 */
+    flex: 1;
+    margin-left: 10px;
+
+    display: flex;
+    /* 把主轴修改为垂直方向（默认是水平方向） */
+    flex-direction: column;
+    /* 主轴方向内容上下贴边对齐 */
+    justify-content: space-between;
+    /* 交叉轴内容往右边对齐 */
+    align-items: flex-end;
+}
+
+.goods-info .title{
+   width: 100%;
+}
+
+.goods-info .button{
+    border: 1px #333 solid;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 8px;
+    background: orange;
+}

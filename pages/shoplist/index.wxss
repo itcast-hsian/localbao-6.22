@@ -1,0 +1,43 @@
+.shop-item{
+    display: flex;
+    padding: 20rpx;
+}
+.shop-item image{
+    width: 200rpx;
+    height: 200rpx;
+    /* 不受挤压 */
+    flex-shrink: 0;
+    margin-right: 10rpx;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    /* 文字超出多行显示省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* 超出多少行 */
+    -webkit-box-orient: vertical;
+}
+.title text{
+    font-weight: bold;
+}
+.title .tag{
+    background: red;
+    color: #fff;
+    padding:2px 5px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+.normal-text{
+    font-size: 14px;
+    color: #333;
+    /* 文字超出多行显示省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* 超出多少行 */
+    -webkit-box-orient: vertical;
+}

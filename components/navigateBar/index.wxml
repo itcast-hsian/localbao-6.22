@@ -1,0 +1,35 @@
+<!-- 
+1.先新建components文件夹
+2.在文件中新建一个navigateBar
+3.在navigateBar文件夹中右键新建component，会自动创建四个文件
+4.引入到personal页面中，在personal/index.json中引入
+{
+  "usingComponents": {
+    "navigateBar": "../../components/navigateBar"
+  }
+}
+5.在personal的页面中调用
+<navigateBar></navigateBar> -->
+
+
+<!-- 
+组件接收属性
+
+1.先声明组件可以接收哪些属性,在组件的js中声明
+    properties: {
+        title: { 
+            type: String, // 表示接收属性的类型
+            value: ''     // 如果不传采用的默认值
+        },
+    },
+
+2.给组件传递属性和属性值，在哪里调用，就在哪里传递
+    <navigateBar title="个人资料"></navigateBar>
+
+3.组件把获取到属性值显示在组件页面上 
+-->
+<view class="navigate-bar">
+    {{ title }}
+</view>
+
+

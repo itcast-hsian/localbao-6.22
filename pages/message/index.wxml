@@ -1,0 +1,13 @@
+<view class="message-item">
+    <view class="title">限时抢购，免费送票</view>
+    <view class="date">2020-6-xx</view>
+    <image mode="aspectFill" 
+    src="https://img20.360buyimg.com/pop/s590x470_jfs/t1/111282/18/10830/91902/5ef156a4Ee8737a4e/c5621d905493ce62.jpg.webp">
+    </image>
+    <view class="desc">
+        最糟糕的，也许是最幸运的
+    </view>
+    <view class="more">
+        Read All
+    </view>
+</view>

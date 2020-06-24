@@ -1,0 +1,25 @@
+<!-- 普通的对齐 -->
+<!-- <view class="wrap">
+    <view class="box"></view>
+    <view class="box"></view>
+    <view class="box"></view>
+</view> -->
+
+
+<!-- 左右贴边对齐 -->
+<!-- <view class="wrap">
+    <view class="box"></view>
+    <view class="box"></view>
+</view> -->
+
+
+<!-- 典型的移动端布局 -->
+<view class="wrap">
+    <view class="image">
+        <image src="https://img11.360buyimg.com/mobilecms/s100x100_jfs/t1/90054/11/1179/73935/5dbb1adcE76347a59/fea7b1e5439d8753.jpg.webp"></image>
+    </view>
+    <view class="goods-info">
+        <view class="title">商品标题</view>
+        <view class="button">立即购买</view>
+    </view>
+</view>

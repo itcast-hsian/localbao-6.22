@@ -1,0 +1,13 @@
+<view class="user-info">
+    <image class="avatar" 
+    mode="aspectFill"
+    src="https://img13.360buyimg.com/pop/s590x470_jfs/t1/119640/12/9107/93326/5eec9168Eaf340a33/6aaa66bce2e2ea92.jpg.webp">
+    </image>
+    <view class="username">用户名</view>
+</view>
+
+<!-- 调用组件，组件名在当前页面的index.json中有定义 -->
+<navigateBar title="个人资料"></navigateBar>
+<navigateBar title="常见问题"></navigateBar>
+<navigateBar title="我的优惠券"></navigateBar>
+

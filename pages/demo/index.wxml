@@ -1,0 +1,71 @@
+<!--pages/demo/index.wxml-->
+<!-- 渲染data的值 -->
+<!-- <text>{{ message }}</text> -->
+
+
+<!-- 把data渲染到组件的属性中 -->
+<!-- 1.在index.js的data中随意添加一个图片的链接
+2.在image组件中读取该图片 src="{{photo}}"
+3.如果图片是长方形，我们要显示成正方形，添加上mode="aspectFill"属性 -->
+<!-- <image src="{{photo}}" mode="aspectFill" style="width:200px; height: 200px;">
+</image> -->
+
+
+<!-- 两个大括号里面可以存放布尔值 -->
+<!-- 多选框为例子，checked属性为true的话就选中，false就不选中 -->
+<!-- <checkbox checked="{{false}}">男</checkbox> -->
+
+
+<!-- 三元表达式 -->
+<!-- <view>{{ 条件 ? 条件成立执行这段代码 : 不成立执行冒号后面的代码 }}</view> -->
+<!-- <view>{{ 2 < 1 ? "我长的像金城武" : "我长的像王宝强" }}</view> -->
+<!-- <view>{{ gender == 1 ? "男" : "女" }}</view> -->
+
+
+<!-- 运算 -->
+<!-- <view>{{ 1 + 2 * 3 / 2 }}</view> -->
+
+
+<!-- 条件表达式，判断这个标签组件是否显示 -->
+<!-- wx:if属性的值如果是true就显示该组件，否则就隐藏 -->
+<!-- <view wx:if="{{false}}"> {{message}} </view> -->
+
+
+<!-- 列表渲染 -->
+<!-- wx:for表示循环出多个该view组件标签 -->
+<!-- 在循环体内（也就是这个标签），item表示数组每个元素, index表示索引值 -->
+<!-- 一般使用wx:for循环都加上wx:key="index"，不会报警告 -->
+<!-- <view 
+wx:for="{{person}}" 
+wx:key="index"
+wx:if="{{index == 2}}"
+>
+    {{item}}
+</view> -->
+
+
+<!-- 显示特定位置的数据 -->
+<!-- <view>{{ person[2] }}</view> -->
+
+
+<!-- bindtap类似于html中的click。是点击事件的事件名，值是事件处理函数 -->
+<!-- 需要掌握setData方法的使用 -->
+<!-- <view style="text-align: center;">{{message}}</view>
+<view style="text-align: center;">{{ gender == 1 ? "男" : "女" }}</view>
+<button bindtap="handleClick">切换性别</button> -->
+
+
+<!-- <view class="wrap">
+    <view class="box">1</view>
+    <view class="box box2">2</view>
+    <view class="box">3</view>
+    <view class="box">4</view>
+    <view class="box">5</view>
+</view>
+ -->
+
+
+
+
+<!-- RPX单位的使用 -->
+<view class="block"></view>

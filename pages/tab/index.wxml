@@ -1,0 +1,41 @@
+<view style="display:flex">
+    <!-- buttons是按钮列表，item表示数组的每一项， index代表索引值 -->
+    <!-- data-index="{{index}}" 表示自定义参数，在点击事件可以获取到index的值 -->
+    <button wx:for="{{buttons}}" 
+    wx:key="index" 
+    bindtap="handleClick"
+    data-index="{{index}}"
+    >
+        {{item}}
+    </button>
+</view>
+
+<!-- 新闻列表的内容 -->
+<view wx:if="{{current == 0}}">
+    <view>新闻列表内容</view>
+    <view>新闻列表内容</view>
+    <view>新闻列表内容</view>
+    <view>新闻列表内容</view>
+    <view>新闻列表内容</view>
+    <view>新闻列表内容</view>
+</view>
+
+<!-- 体育列表的内容 -->
+<view wx:if="{{current == 1}}">
+    <view>国足夺冠啦</view>
+    <view>国足夺冠啦</view>
+    <view>国足夺冠啦</view>
+    <view>国足夺冠啦</view>
+    <view>国足夺冠啦</view>
+    <view>国足夺冠啦</view>
+</view>
+
+<!-- 娱乐列表的内容 -->
+<view wx:if="{{current == 2}}">
+    <view>娱乐列表内容</view>
+    <view>娱乐列表内容</view>
+    <view>娱乐列表内容</view>
+    <view>娱乐列表内容</view>
+    <view>娱乐列表内容</view>
+    <view>娱乐列表内容</view>
+</view>

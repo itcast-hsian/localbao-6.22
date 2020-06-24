@@ -1,0 +1,50 @@
+/* 盒子排列的父元素 */
+.wrap{
+    margin:10px;
+    border: 1px #333 solid;
+    height: 500px;
+    /* 相对定位 */
+    position: relative;
+}
+
+
+.box{
+    width: 70px;
+    height: 70px;
+    background: gray;
+
+    /* padding: 上 右 下 左 */
+    padding: 10px 20px 30px 40px;
+    /* 内减模式，使得padding不会影响宽高 */
+    box-sizing: border-box;
+
+    /* margin: 上 右 下 左 */
+    margin:10px 20px 30px 15px;
+
+    /* 边框 */
+    border: 2px blue solid;
+
+    /* 把元素浮动起来 */
+    float: left;
+    /* float: right; */
+}
+
+.box2{
+    background: red;
+    /* 绝对定位 */
+    position: absolute; 
+    /* top,right,bottom,left 四个方向都是可选，根据你设置的值固定位置，默认top：0， left：0 */
+    right:0;
+    bottom:0;
+}
+
+
+
+/* rpx,小程序必须要使用750px宽的设计稿，这时候设计稿上的元素大小是多少就直接设置为多少个rpx */
+.block{
+    width: 500rpx;
+    height: 500rpx;
+    background: gray;
+}
+
+

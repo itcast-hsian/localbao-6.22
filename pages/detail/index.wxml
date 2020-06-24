@@ -1,0 +1,31 @@
+
+<image 
+class="banner" 
+mode="aspectFill"
+src='{{goods.goods_big_logo}}'></image>
+
+<!-- 店铺描述 -->
+<view class="goods-info">
+    <view class="title">{{goods.goods_name}}</view>
+    <view class="normal-text">价格：{{goods.goods_price}}</view>
+</view>
+
+<!-- 显示图文信息 -->
+<rich-text nodes="{{goods.goods_introduce}}"></rich-text>
+
+<!-- 评论列表 -->
+<!-- <view class="comments">
+    <view class="score">100%</view>
+    <view class="user-info">
+        <view class="username">用户名</view>
+        <text>2020-6-xx</text>
+    </view>
+    <view class="comment-text">
+        【法国名品 官方认证】【100%牛皮/已质检】法国梦特娇 原装直邮 高级轻奢定制舒适透气时尚女鞋 白色-法国正品 37质检】法国梦特娇 原装直邮 高级轻奢定制舒适透气时尚女鞋 白色-法国正品 37
+    </view>
+    <view class="comment-image">
+        <image src="https://img12.360buyimg.com/mobilecms/s250x250_jfs/t1/113867/40/10239/131783/5ee8307aEef6fef28/23c086bc24977b62.jpg"></image>
+        <image src="https://img12.360buyimg.com/mobilecms/s250x250_jfs/t1/113867/40/10239/131783/5ee8307aEef6fef28/23c086bc24977b62.jpg"></image>
+        <image src="https://img12.360buyimg.com/mobilecms/s250x250_jfs/t1/113867/40/10239/131783/5ee8307aEef6fef28/23c086bc24977b62.jpg"></image>
+    </view>
+</view> -->

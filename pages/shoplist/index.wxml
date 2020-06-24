@@ -1,0 +1,21 @@
+
+<navigator 
+wx:for="{{goods}}"
+wx:key="index"
+url="/pages/detail/index?goods_id={{item.goods_id}}" 
+class="shop-item">
+    <image src="{{ item.goods_small_logo }}"></image>
+    <!-- 右边的文字 -->
+    <view class="shop-info">
+        <view class="title">
+            <text>{{item.goods_name}}</text>
+        </view>
+        <view class="normal-text">价格：{{item.goods_price}}</view>
+    </view>
+</navigator>
+
+<view style="text-align:center" 
+wx:if="{{hasMore == true }}">正在加载</view>
+
+<view style="text-align:center" 
+wx:if="{{hasMore == false }}">我也是有底线的</view>

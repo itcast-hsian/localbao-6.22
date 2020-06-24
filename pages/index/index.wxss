@@ -1,0 +1,53 @@
+swiper{
+    height: 380rpx;
+}
+
+.banner{
+    width: 750rpx;
+    height: 380rpx;
+}
+
+/* 九宫格 */
+.menu{
+    display: flex;
+    /* flex布局默认是在一行显示，可以通过wrap允许换行 */
+    flex-wrap: wrap;
+    margin-top: 20rpx;
+}
+
+.menu-item{
+    width: 33.33%;
+    height: 200rpx;
+    display: flex;
+    flex-direction: column;
+    /* 主轴方向居中 */
+    justify-content: center;
+    /* 交叉轴方向也要居中 */
+    align-items: center;
+    border-right: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    box-sizing: border-box;
+}
+
+.menu-item:nth-child(3n){
+    border-right: none;
+}
+
+.menu-item .iconfont{
+    font-size: 70rpx;
+    margin-bottom: 20rpx;
+}
+
+.menu-item text{
+    font-size: 14px;
+}
+
+.menu-item:nth-child(1) .iconfont{
+    color: cyan;
+} 
+.menu-item:nth-child(5) .iconfont{
+    color: orange;
+}
+.menu-item:nth-child(9) .iconfont{
+    color: pink;
+}

@@ -1,0 +1,53 @@
+.banner{
+    width: 750rpx;
+    height: 600rpx;
+}
+/* 中间的文字部分 */
+.goods-info{
+    padding: 30rpx;
+    border-bottom: 20rpx #eee solid;
+}
+.goods-info .title{
+    font-weight: bold;
+}
+.goods-info .normal-text{
+    font-size: 14px;
+}
+
+/*------------------------------- 先写上面部分 -----------------------------*/
+
+/*------------------------------- 再写下部分 -----------------------------*/
+
+/* 评论列表 */
+.comments{
+    padding: 30rpx;
+}
+.comments .score{
+    text-align: right;
+    color: red;
+}
+.comments .user-info{
+    display: flex;
+    justify-content: space-between;
+}
+.comments .username{
+    font-weight: bold;
+}
+.comments .user-info text{
+    font-size: 14px;
+}
+
+.comment-text{
+    font-size: 14px;
+    margin: 20rpx 0;
+    line-height: 1.8;
+}
+.comment-image{
+    display: flex;
+ 
+}
+.comment-image image{
+    width: 120rpx;
+    height: 120rpx;
+    margin-right: 20rpx;
+}

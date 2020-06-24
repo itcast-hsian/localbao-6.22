@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/demo/index",
+    "pages/tab/index",
+    "pages/flex/index",
+    "pages/message/index",
+    "pages/personal/index",
+    "pages/shoplist/index",
+    "pages/detail/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#00c4aa",
+    "navigationBarTitleText": "黑马本地宝",
+    "navigationBarTextStyle": "white"
+  },
+
+  "tabBar": {
+    "selectedColor": "#333",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/index.png",
+        "selectedIconPath": "./images/index_active.png"
+      },
+      {
+        "pagePath": "pages/message/index",
+        "text": "消息",
+        "iconPath": "./images/message.png",
+        "selectedIconPath": "./images/message_active.png"
+      },
+      {
+        "pagePath": "pages/personal/index",
+        "text": "我的",
+        "iconPath": "./images/personal.png",
+        "selectedIconPath": "./images/personal_active.png"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
